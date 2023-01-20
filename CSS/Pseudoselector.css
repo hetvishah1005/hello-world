@@ -1,0 +1,56 @@
+/* a:link{
+    color:green;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color: pink;
+    font-size: 40px;
+}
+
+a:active{
+    color: orange;
+} */
+
+/* p{
+    color:rgb(47, 83, 11);
+    display: none;
+
+}
+
+div:hover p{
+    color:cadetblue;
+    font-size: 40px;
+    display: block;
+} */
+a.phover:hover{
+    color: pink;
+    font-size: 40px;
+}
+/* div{
+    border: 1px solid black;
+    background-color:rgb(137, 81, 196);
+    padding: 10px; 
+    font-size: larger;
+}
+div:hover{
+    border: 1px solid black;
+    background-color:beige;
+    padding: 10px;
+    font-size: larger;
+} */
+
+/* p:first-child{
+    color:aqua;
+} */
+
+/* p i:first-child{
+    color:aqua;
+} */
+
+p:first-child i{
+    color:aqua;
+}

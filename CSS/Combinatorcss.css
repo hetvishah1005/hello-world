@@ -1,0 +1,32 @@
+/* decendent selector - a div na under na badha j decendent lese  */
+/* div p{
+    color:rgb(26, 94, 97);
+    background-color: rgb(208, 185, 155);
+    font-size: 20px;
+} */
+
+/* child selector - a selector div(etle specific element) na badha children ne lese but child na sub child nai le*/
+/* div > p{
+    color:rgb(80, 5, 80);
+    background-color: rgb(154, 163, 93);
+    font-size: 20px;
+} */
+
+/* adjacent sibling selector- a selector div(etle specific element) 
+pachi no element select kare che*/
+/* div+p{
+    color:rgb(165, 15, 153);
+    background-color:chartreuse;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+} */
+
+/* General Sibling Selector- ama div element na bar na badha p element lese */
+div~p{
+    color:rgb(165, 15, 153);
+    background-color:rgb(148, 190, 107);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+}

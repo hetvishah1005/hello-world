@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid property</title>
+    <style>
+        .grid-property {
+            background-color: cornflowerblue;
+            padding: 10px;
+            display: grid;
+            grid-template-areas: 'header header header header header header'
+                'menu main main main right right'
+                'menu footer footer footer footer footer';
+
+        }
+
+        .grid-property>div {
+            background-color: violet;
+            padding: 20px;
+            margin: 10px;
+            font-size: 80px;
+            text-align: center;
+        }
+
+        .item1 {
+            grid-area: header;
+        }
+
+        .item2 {
+            grid-area: menu;
+        }
+
+        .item4 {
+            grid-area: right;
+        }
+
+        .item3 {
+            grid-area: main;
+        }
+
+        .item5 {
+            grid-area: footer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>this is grid property.</h1>
+    <div class="grid-property">
+        <div class="item1">Header</div>
+        <div class="item2">Menu</div>
+        <div class="item3">Main</div>
+        <div class="item4">Right</div>
+        <div class="item5">Footer</div>
+    </div>
+</body>
+
+</html>

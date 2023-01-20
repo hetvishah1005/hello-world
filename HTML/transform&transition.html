@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Transform and Transition</title>
+<!-- <style>
+.content{
+background-color: rebeccapurple;
+color: white;
+border: 1px solid violet;
+height: 100px;
+width: 100px;
+transition-property: width background-color;
+transition-duration: 1s;
+transition-delay: 500ms;
+transition-timing-function: ease-in;
+}
+.content:hover{
+background-color: cadetblue;
+width: 400px;
+height: 200px;
+}
+</style> -->
+<!-- <style>
+@keyframes changeelements{
+0% {background-color:red;}
+25%{background-color:greenyellow;}
+50%{width: 200px; height:200px;}
+75%{background-color:brown;}
+100%{background-color:yellow;}
+}
+.content{
+background-color: rebeccapurple;
+height: 100px;
+width: 100px;
+animation-name: changeelements;
+animation-duration: 5s;
+animation-delay: 2s;
+animation-iteration-count: 2;
+}
+</style> -->
+<!-- <style>
+        @media screen {
+            p{
+                /* background-image: url(../images/cat-iconesm.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 500px; */
+                background-color: brown;
+                color:white;
+                font-size: 30px;
+            }
+        }
+        @media print{
+            p{
+                width: 50px;
+                font-size: 60px;
+            }
+            img{
+                display: none;
+            }
+        } 
+</style> -->
+<style>
+    .content{
+        background-color: darksalmon;
+        height: 150px;
+        width: 70%;
+        float: left;
+    }
+    .content1{
+        background-color: rgb(227, 199, 21);
+        width: 30%;
+        height: 150px;
+        float: left;
+    }
+    @media screen and (max-width: 742px){
+        .content{
+            width: 50%;
+            background-color: crimson;
+        }
+        .content1{
+        width: 50%;
+        background-color: rgb(116, 12, 107);
+        }
+    }
+
+    @media screen and (max-width: 400px){
+        .content{
+            width: 60%;
+            background-color: crimson;
+        }
+        .content1{
+    width: 40%;
+        background-color: rgb(116, 12, 107);
+        }
+    }
+    p{
+        column-count: 6;
+        column-gap: 50px;
+        /* column-rule-style:dotted;
+        column-rule-color: yellowgreen;
+        column-rule-width: 10px; */
+        column-rule: 5px solid violet;
+        /* column-width: 200px; */
+    }
+
+    h1{
+        column-span: all;
+    }
+
+</style>
+
+</head>
+
+<body>
+<div class="content">
+    <h1>Div1</h1>
+    content
+    <br>
+    <br>
+    
+    <br>
+<p><img src="/images/cat-iconesm.png" alt="" style="padding: 10px;"> <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, magnam voluptas. Aspernatur, cupiditate.
+    Voluptates iure modi a recusandae obcaecati ab quae, quos necessitatibus vitae rerum tenetur est maxime at
+    blanditiis quod autem sint officiis odio quisquam. Sapiente, expedita? Totam, quia. Consequuntur, recusandae
+    et ad, corrupti porro reiciendis ratione, nihil vitae nostrum quidem maiores praesentium fuga saepe itaque
+    consectetur maxime veniam. </h1> Eius culpa veniam magnam fuga neque ut tempore debitis quia eos quos laborum a
+    adipisci est aspernatur temporibus ipsam assumenda repellendus perferendis similique, aut quo sint at. Sit
+    magnam dolores, fuga nobis commodi fugit asperiores numquam distinctio nesciunt dolore illum animi
+    consequuntur nostrum et dignissimos quaerat ipsa voluptatum aspernatur! Consequuntur, porro sit! Quo,
+    tempora voluptate harum beatae quasi adipisci deserunt eius error dolor sed in alias iure eos commodi quod
+    doloribus necessitatibus quae totam fugit ullam, aspernatur non! Commodi nisi provident placeat adipisci
+    modi voluptates repellendus, quis impedit suscipit dolores a repudiandae autem debitis dolorum distinctio
+    sapiente assumenda sunt facere dignissimos voluptas. Aspernatur quibusdam commodi explicabo delectus dolorum
+    autem ratione pariatur accusamus voluptate repudiandae, officia suscipit illo sunt ipsam distinctio
+    asperiores velit quae. Amet quasi dolor non autem consequatur aliquid quod incidunt cupiditate soluta nam
+    quisquam quos aliquam rem corporis enim maxime recusandae asperiores deleniti, voluptatibus nostrum
+    explicabo atque eaque. Ut reiciendis facilis dolores, quam dolor laboriosam officiis possimus minus? Nemo,
+    minus! Numquam quidem eaque maxime fugit perferendis laboriosam rem incidunt odio assumenda illum animi
+    nisi, mollitia, aspernatur voluptas ullam? Veniam hic sed, assumenda tenetur tempore saepe? Est temporibus
+    officia sunt adipisci nemo repellat voluptate consequuntur quia tempore provident nisi totam culpa quibusdam
+    ipsum hic quam, molestias, sint soluta ea maiores necessitatibus! Dolorum, accusamus obcaecati, pariatur
+    sapiente ipsam exercitationem maiores architecto quasi deleniti perspiciatis, nemo qui? Veritatis adipisci,
+    placeat illum sit rem aperiam! Quam magni aut fuga aliquam ullam fugit, harum magnam reiciendis modi et
+    neque autem ipsa earum nostrum nulla quos repellendus omnis dolorem quod corrupti tenetur quaerat molestiae?
+    Explicabo error maxime sapiente provident nemo ut assumenda, totam enim? Distinctio aspernatur quibusdam
+    corporis sunt architecto, maxime commodi quod aliquam voluptatum eos ratione eius. Incidunt, corrupti iure
+    quia voluptatem numquam consequatur accusamus. Quod dolore, quia adipisci minima cum delectus velit, itaque
+    nisi blanditiis assumenda aperiam consequuntur, sint reiciendis eveniet asperiores. Ipsum sed ullam
+    perspiciatis unde quia! Enim, placeat a quas recusandae aut molestiae totam veniam nobis quis voluptatibus
+    error. Hic iste ipsum aperiam debitis ratione saepe molestias ab quod voluptatem labore corrupti, porro
+    illum suscipit facere eos ad voluptatibus provident quas dolore. Veritatis suscipit dolore explicabo
+    laboriosam sunt, officia harum perferendis dolores cupiditate dignissimos eius obcaecati? Debitis aliquid
+    illum quae odio harum labore tenetur. Nam excepturi in enim eaque vel vitae voluptates eius pariatur illo
+    cumque, tempora iste error? Pariatur, illo, illum laudantium qui, et provident sit reiciendis numquam iusto
+    distinctio excepturi dolorem quisquam exercitationem error iste dolor magni similique quam fuga placeat.
+    Error voluptatem a eaque autem sint! Impedit minima magni ipsum, dolores, dolorum omnis tempora dolore
+    officiis soluta quas hic, ut nemo rerum est ab aliquam eaque iste!</p>
+</div>
+
+<div class="content1">
+    <h1>Div2</h1>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+p::first-line{
+    color:rgb(28, 113, 85);
+    padding: 10px;
+    font-size: x-large;
+}
+
+p::first-letter{
+    color:darkviolet;
+    font-size: 100px;
+    font-style: oblique;
+
+}
+
+h1::before{
+    content: url(http://jigsawpuzzles.online/king-include/uploads/blooming-spring-pink-5226476970.jpg);
+    padding: 10px;
+    height: 500px;
+}
+h2::after{
+    content: url(http://jigsawpuzzles.online/king-include/uploads/blooming-spring-pink-5226476970.jpg);
+    padding: 10px;
+    height: 500px;
+}
+
+::selection{
+    color:rgb(0, 188, 0);
+    font-size: 30px;
+}

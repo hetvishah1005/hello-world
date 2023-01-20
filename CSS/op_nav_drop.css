@@ -1,0 +1,153 @@
+.nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    width:100%;
+    background-color: lightblue;
+    position: fixed;
+    top:0px;
+    overflow: hidden;
+    
+}
+.nav li a{ 
+    /* text-align:center; */
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    display: block;
+    float: left;
+}
+.nav li .active{
+    background-color: green;
+}
+.nav a:hover:not(.active){
+    background-color: grey;
+    color: white;
+}
+.para{
+    background-color: cadetblue;
+    width:100%;
+    padding: 30px 20px;
+    margin: 0px;
+}
+
+/* ul{
+    list-style-type: none;
+    padding:0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: lightgray;
+}
+
+li a{
+    background-color: lightgrey;
+    display: block;
+    padding: 20px;
+    float: left;
+    text-decoration: none;
+    color: black;
+    border-right: 2px solid rgb(160, 195, 35);
+}
+li .active{
+    background-color: grey;
+    color: white;
+}
+li a:hover:not(.active){
+    background-color: peru;
+    color: white;
+} */
+
+/* div ul{
+    background-color: lightgray;
+    list-style-type: none;
+    border: 1px solid;
+    width: 15%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    overflow: auto;
+    position: fixed;
+}
+
+div li a{
+    color: black;
+    display: block;
+    text-decoration: none;  
+    padding: 10px;
+}
+a:hover:not(.active)
+{
+   background-color: grey; 
+   color: white;
+}
+ul .active{
+    background-color: lightgreen;
+} 
+
+.right{
+    margin-left: 18%;
+} */
+
+/* ul{
+    background-color: lightgray;
+    list-style-type: none;
+    border: 1px solid;
+    text-align: center;
+    width: 15%;
+    padding: 0px;
+    margin: 0px;
+}
+
+li a{
+    color: black;
+    display: block;
+    text-decoration: none;  
+    border-bottom: 1px solid; 
+    padding: 10px;
+}
+a:hover:not(.active)
+{
+   background-color: grey; 
+   color: white;
+}
+ul .active{
+    background-color: lightgreen;
+} */
+
+
+/* li a{
+    text-decoration: none;
+    padding: 13px 10px;
+    display: block;
+}
+ul{
+    background-color: rgb(237, 237, 237);
+    list-style-type: none;
+    width: 15%; 
+    padding: 0px;
+}
+li a:hover{
+    background-color: grey;
+    color:wheat;
+} */
+
+
+/* div img{
+
+    height: 300px;
+    width: 990px;
+    overflow: auto;  
+}
+
+div p{
+    border: 1px solid black;
+    height: 90px; 
+    text-align: center;
+    width: 600px;
+    margin-top: -200px;
+    margin-left: 120px;
+    background-color: rgb(56, 36, 211);
+    opacity: 0.5;
+    color: white;
+} */

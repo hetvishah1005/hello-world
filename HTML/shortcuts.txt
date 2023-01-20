@@ -1,0 +1,6 @@
+these both are for indentation.
+ctrl+k and ctrl+f
+shift + tab
+
+<i class="fa-brands fa-linkedin"></i>
+<i class="fa-brands fa-instagram"></i>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Content with the help of JS</title>
+    <script src="../JS/hetvi.js"></script>
+    <!-- <script>
+    function myfunc(){
+        document.getElementById("show").style.display="block";
+    }
+    </script> -->
+    <style>
+        .click,  #show{
+            border: 1px solid;
+            background-color: springgreen;
+            display:inline;
+            padding: 10px;
+            margin:10px;
+        }
+        #show{
+            display:none;
+        }
+        
+        .em1{
+            margin:30px;
+            background-color: burlywood;
+            padding: 10px;
+            /* width:500px; */
+            width: 800px;
+        }
+        .em2{
+            margin:30px;
+            background-color: burlywood;
+            padding: 10px;
+            /* width:500px; */
+            min-width: 350px ;
+        }
+    </style>
+</head>
+<body>
+    <p class="click" onclick="myfunc()">Click me to Show content</p>
+    <div id="show" class="em1">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Ab delectus eum minima harum facere id vitae veritatis hic? Ea, debitis. 
+        Nam, suscipit soluta optio adipisci eveniet inventore dignissimos dolorem quod?
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Aliquid consequatur vel cum officia eligendi modi.</p></div>
+
+       <div class="em1">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Ab delectus eum minima harum facere id vitae veritatis hic? Ea, debitis. 
+        Nam, suscipit soluta optio adipisci eveniet inventore dignissimos dolorem quod?
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Aliquid consequatur vel cum officia eligendi modi.</p></div>
+        
+    <div class="em2" >Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Mollitia, debitis labore natus minima vero nostrum unde harum 
+        illum delectus incidunt repudiandae voluptates! 
+        Fugiat sequi assumenda accusantium eveniet? Ut rerum 
+        praesentium quos hic eaque itaque corrupti nobis dicta, 
+        ullam minus tempora, nostrum quasi quam alias natus.</div>
+</body>
+</html>

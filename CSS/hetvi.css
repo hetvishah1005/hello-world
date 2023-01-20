@@ -1,0 +1,45 @@
+
+/* simple selectors */
+/* Selects all <p> elements */
+p{
+    background-color: gray;
+    color: blue;  
+} 
+a{
+    /* text-decoration: none; */
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 2px 4px 2px rgb(63, 75, 63);
+}
+/* If you want to add same styling in certain elements then add those elements by adding comma like below and also it selects all div elements and all p elements
+p, div{
+    background-color:darkgray;
+    color:indigo;  
+} */
+
+/* The universal selector (*) selects all HTML elements on the page. 
+*{
+    background-color:darkgray;
+    color:blue;
+}*/
+
+/* Selects only <p> elements with class="demo" 
+p.demo {
+    background-color: darkgray;
+    color: darkmagenta;
+    font-size: large;
+ } */
+
+/* Selects all elements with class="demo" */
+.demo{
+    background-color: rgb(14, 147, 69);
+    color: darkmagenta;
+    font-size: larger;
+}
+
+div{
+    /* height: auto; */
+    /* resize property is only applicable when the overflow property is hidden,auto and scroll */
+    overflow:scroll; 
+    resize: both;
+}

@@ -1,0 +1,107 @@
+*{
+    background-color: lightgrey;
+    /* opacity: 0.8; */
+}
+/* navigation and Heading */
+#navbar{
+    
+   /* border: 1px solid black;  */
+   display: flex;
+   justify-content: end;
+   height: 70px;
+   position: sticky;
+   box-shadow: 10px 10px 15px 5px grey;
+}
+.cname a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    position: absolute;
+    left: 70px;
+    top: 30px;
+}
+.navitems a{
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+    border: 1px solid black;
+    margin: 10px;
+}
+ul li{
+    list-style-type: none;
+}
+
+#navbar ul{
+    display: flex;
+}
+/* Welcome-greeting*/
+.greeting{
+    background-image: url(/images/bulb.jpg);
+    /* background-attachment:fixed; */
+    background-position:center;
+    background-repeat: no-repeat;
+    /* opacity: 0.8; */
+    background-size: cover;
+    display: block;
+    /* border: 1px solid black; */
+    margin: 10px; 
+    height: 500px;
+}
+#welcome{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+button{
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 12px;
+    position: relative;
+    left: 60px;
+}
+
+button:hover{    
+    background-color: rgb(154, 9, 130);
+    color: white;
+}
+/* About Us */
+.brief{
+    border-radius: 12px 12px 12px 12px rgb(225, 35, 35);
+    /* border: 1px solid black; */
+}
+#about{
+    background-color: rgb(148, 139, 139);
+    border-radius: 12px;
+    opacity: 0.7;
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    top: 500px;
+    right: 768px;
+}
+img{
+    position: relative;
+    top: -10px;
+    float: right;
+    object-fit: contain;
+    width:300px;
+    height:200px;
+}
+h2{
+    border-bottom: 1px solid purple;
+    display: inline;
+}
+.workdetails{
+    line-height: 25px;
+    font-size: 18px;
+    font-family:monospace;
+}
+.fa-solid {
+    font-size: 120px;
+}
+

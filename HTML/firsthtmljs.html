@@ -1,0 +1,92 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIRST HTML and JAVASCRIPT</title>
+    <style>
+        #demo{
+            font-Family:italic;
+            font-size:20px;
+            margin:10px;
+            border:1px solid green;
+            background-color:Lightgreen;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>JAVASCRIPT FIRST SMALL CODE</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, dolorum iste ullam adipisci illo 
+        reprehenderit aperiam cupiditate excepturi, at enim porro laudantium earum!</p>
+    <p id="demo">This is the demonstration</p>
+    <button type="button" onclick="myfun()">Touch Me</button>
+    <script>
+        function myfun(){
+            document.getElementById("demo").innerHTML = "THIS IS JAVASCRIPT MAGIC";
+            document.getElementById("demo").style.fontFamily = "italic";
+            document.getElementById("demo").style.fontSize = "20px";
+            document.getElementById("demo").style.margin = "10px";
+            document.getElementById("demo").style.border = "1px solid green";
+            document.getElementById("demo").style.backgroundColor = "Lightgreen";
+        }
+    </script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB STORAGE</title>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat officia est asperiores quidem maxime quasi 
+            tempore quibusdam qui optio exercitationem, 
+            quaerat architecto, iusto sequi error eligendi reprehenderit. Ex, ipsum nostrum!</p>
+        <script type="text/javascript">
+            if(sessionStorage.hits){
+                sessionStorage.hits = Number(sessionStorage.hits) + 1;
+            }
+            else{
+                sessionStorage.hits = 1;
+            }
+            document.write("Total Hits:" + sessionStorage.hits);
+        </script>  
+        <p>Refresh to see the number of hits.</p>
+        <p> After refreshing certain times and close the window and again refresh and check result.</p>
+    </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB STORAGE</title>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat officia est asperiores quidem maxime quasi 
+            tempore quibusdam qui optio exercitationem, 
+            quaerat architecto, iusto sequi error eligendi reprehenderit. Ex, ipsum nostrum!</p>
+        <script type="text/javascript">
+            if(localStorage.hits){
+                localStorage.hits = Number(localStorage.hits) + 1;
+            }
+            else{
+                localStorage.hits = 1;
+            }
+            document.write("Total Hits:" + localStorage.hits);
+        </script>  
+        <p>Refresh to see the number of hits.</p>
+        <p> After refreshing certain times and close the window and again refresh and check result.</p>
+    </div>
+</body>
+</html>

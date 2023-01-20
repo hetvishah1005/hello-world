@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tooltip</title>
+    <style>
+        body{
+            font-size: 20px;
+            text-align: center;
+        }
+        .tooltip{
+            border-bottom: 2px dotted slateblue; 
+            position: relative;
+            display: inline-block;
+        }
+        .tooltip .tooltiptext{
+            visibility: hidden;
+            color: white;
+            background-color: black;
+            padding: 12px;
+            border-radius: 20px;
+            text-align: center;
+            position: absolute;
+            font-size: 40px; 
+            width: 220px;
+            opacity: 0;
+            transition: opacity 2s;
+        }
+        .tooltip .tooltiptext::after{
+            content: " ";
+            position: absolute;
+  top: 30%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: dotted;
+  border-color: transparent black transparent transparent;
+           
+        }
+        .tooltip:hover .tooltiptext{
+            opacity: 1;
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <h1> Basic Tooltip</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat mollitia vero sunt sapiente! Expedita tenetur
+        repudiandae accusamus quasi, enim incidunt velit ipsa culpa odit perspiciatis ab assumenda facere non. Impedit, iste
+        nam!</p>
+    <div class="tooltip">
+        Hover over me
+        <span class="tooltiptext">
+            Tooltip Text
+        </span>
+    </div>
+</body>
+</html>
